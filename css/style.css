@@ -1,0 +1,36 @@
+* {
+  font-family: Montserrat, sans-serif;
+}
+img {
+  width: 100%;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1024px;
+}
+.card {
+  width: 100% !important;
+}
+
+.btn-primary {
+  background-color: #120161;
+  border-color: #120161;
+}
+
+.btn-primary:hover {
+  background-color: #1b028a;
+  border-color: #1b028a;
+}
+.logo-image {
+  max-width: 130px;
+}
+
+footer {
+  background-color: #0B4A65;
+}
+
+footer a,
+footer h2,
+footer p {
+  color: white;
+}

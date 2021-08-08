@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Curso HTML5</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="" class="logo-image" width="120px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Eventos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">Eventos académicos</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Eventos tecnológicos</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Cursos</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <img
+            src="./img/html-course-image.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+        </div>
+        <div class="col align-middle">
+          <h1>Curso de HTML5</h1>
+          <p>
+            En este curso se hablará de los estándares y programación especial
+            de este lenguaje de marcado
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            excepturi ad eaque mollitia eligendi obcaecati blanditiis odit
+            dolore, voluptatibus cum, sequi repellendus recusandae quae ipsum
+            quam provident nostrum distinctio est!
+          </p>
+        </div>
+      </div>
+      <h2 class="text-center mt-4">Otros cursos relacionados</h2>
+      <p class="text-center">
+        A continuación una amplia lista de foros y cursos que puedan continuar
+        tu aprendizaje.
+      </p>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-3 mt-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/html-course-image.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Curso HTML5</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Ir al curso</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-3 mt-3">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./img/desarrollo-web-curso.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Curso de desarrollo web</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Ir al curso</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-3 mt-3">
+          <div class="card" style="width: 18rem">
+            <img src="./img/php.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Seminario de PHP</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Ir al curso</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="px-4 py-5" id="featured-3">
+      <div class="container">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <h2>COL SOFTWARE</h2>
+            <p>
+              Es una entidad sin ánimo de lucro, que busca ampliar el
+              conocimiento de los desarrolladores colombianos y formar comunidad
+            </p>
+            <a href="#" class="icon-link">
+              Conoce más
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="feature col">
+            <h2>Contacto</h2>
+            <p>Carrera 2 # 104C-20 Edificio colonia 2do piso</p>
+            <p>Tel: 350 555 4444 - (57 1)230 4858</p>
+            <a href="mailto:eventos@colsoftware.com" class="icon-link">
+              eventos@colsoftware.com
+            </a>
+          </div>
+          <div class="feature col text-center">
+            <img
+              src="./img/logo-white.png"
+              class="logo-image"
+              alt=""
+              width="120px"
+            />
+            <p class="mt-5">Col Software - 2021 - Derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
